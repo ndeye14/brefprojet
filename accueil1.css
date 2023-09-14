@@ -30,7 +30,15 @@ body {
 }
 .image{
     float: right;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
     
+    
+}
+.fa-solid fa-location-dot{
+    padding-top: 500px;
 }
 .menu {
     display: flex;
@@ -39,18 +47,37 @@ body {
     display: flex;
     justify-content: space-between;
     margin-left: 500px;
+    
 }
 .menuItems ul li  {
     display: flex;
     justify-content: space-between;
     margin-right: 40px;
+    margin-top: -50px;
+    text-decoration: none;
     
+}
+.menuItems ul li a{
+    
+    text-decoration: none;
+
 }
 .menu .menuItems .logo{
     margin-top: 5px;
 }
-.menu .menuItems  {
-   display: inline-block;
+
+.photo{
+    float: right;
+    width: 55%;
+}
+.texte{
+    width: 45%;
+}
+.photex{
+    display: flex;
+}
+.corde{
+    transform: scaleX(-1);
 }
 
 
